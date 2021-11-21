@@ -18,4 +18,4 @@ jobs:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
       run: |
         chmod +x do-now.sh
-        bash do-now.sh "arm-zyc-linux-gnueabi" "11" "arm" "nozip"
+        bash do-now.sh "arm-zyc-linux-gnueabi" "10" "arm" "nozip"
